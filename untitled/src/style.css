@@ -1,0 +1,49 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: linear-gradient(to bottom right, #dceeff, #e6f7ff);
+}
+
+.label {
+    -fx-text-fill: #1a1a1a;
+    -fx-font-size: 14px;
+}
+
+.text-field, .password-field, .combo-box {
+    -fx-pref-height: 38px;
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+    -fx-border-color: #b3d4fc;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 0 10;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #4A90E2;
+}
+
+.button.action-button {
+    -fx-background-color: linear-gradient(to right, #4A90E2, #007BFF);
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.2), 4, 0, 0, 2);
+}
+
+.button.action-button:hover {
+    -fx-background-color: linear-gradient(to right, #007BFF, #0056b3);
+}
+
+.tab {
+    -fx-background-color: #e1f0ff;
+    -fx-text-fill: #222;
+}
+
+.tab:selected {
+    -fx-background-color: #cce4ff;
+}
+
